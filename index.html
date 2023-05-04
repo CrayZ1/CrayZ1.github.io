@@ -7,19 +7,30 @@
 
 <body>
 
-<header id="pagehead">
-  <div class="logo">CrayZ</div>
-  <button class="pagebutton">HOME</button>
-  <a href="html/data.html" style="text-decoration: none">
-    <button class="pagebutton">DATA</button>
-  </a>
-  <a href="html/ns.html" style="text-decoration: none">
-    <button class="pagebutton">NS</button>
-  </a>
+<header id="navbar">
+  <div class="container" id="navbarcenter" style="height: 100%; max-width: 1000px; border-radius: 20px; margin-top: 5px">
+    <div class="logo">CrayZ</div>
+    <div class="buttons">
+      <div class="pagebutton">Home</div>
+      <div class="pagebutton">
+        <a href="html/review.html">Reviews</a>
+      </div>
+      <div class="pagebutton">
+        <a href="#">Coding</a>
+        <div class="pagebutton-content">
+          <a href="html/UnnamedRPG.html">UnnamedRPG</a>
+          <a href="html/BadHK.html">BadHK</a>
+        </div>
+      </div>
+      <div class="pagebutton">
+        <a href="html/ns.html">NS</a>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div>
-  <img src="assets/crayzdragon.jpg" alt="CrayZ" style="width:100%;">
+  <img src="assets/Astronaut.jpg" alt="CrayZ" id="imagehead" style="width:100%;">
 </div>
 
 <div>
@@ -101,8 +112,13 @@
   <br>
   <br>
   <br>
-  <p>Bottom of page</p>
 </div>
+
+<div id="pageender">
+  Bottom of the page.
+</div>
+
+
 <script src="html/sticky.js"></script>
 
 </body>
